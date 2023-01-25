@@ -9,6 +9,7 @@ jobs:
   price-check:
     name: Price check
     runs-on: ubuntu-latest
+    environment: 'Actions alerter'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
