@@ -2,7 +2,7 @@ name: Price check
 
 on:
   schedule:
-    - cron: '19 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   price-check:
