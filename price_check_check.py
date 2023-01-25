@@ -9,4 +9,4 @@ def price_check_check():
         datetime.datetime.utcnow().minute >= 55
     ):
         return "Price check check passed"
-    return "Price check check test passed"
+    # return "Price check check test passed"
