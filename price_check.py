@@ -43,4 +43,5 @@ if __name__ == "__main__":
     Supply the following environment variables:
     EMAIL_FROM, EMAIL_TO, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT
     """
+    print(os.environ)
     main()
