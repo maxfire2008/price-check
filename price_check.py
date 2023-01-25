@@ -37,6 +37,8 @@ def main():
             print("SUBJECT: " + msg['Subject'])
             print("BODY: " + result)
             print("Email sent successfully")
+        else:
+            print("Check:", check.__module__ + "." + check.__name__, "didn't return anything")
 
 if __name__ == "__main__":
     """
