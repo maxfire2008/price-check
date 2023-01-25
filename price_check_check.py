@@ -9,4 +9,6 @@ def price_check_check():
         datetime.datetime.utcnow().hour <= 14
     ):
         return "Price check check passed"
-    return "Price check check has run the every time response"
+
+    if datetime.datetime.utcnow() < datetime.datetime(2022, 1, 27):
+        return "Price check check has run the every time response"
