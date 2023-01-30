@@ -21,7 +21,7 @@ def price_check():
     price = soup.find(
         "div", {"class": "prod_price_current product-price"}).find("span").text
 
-    if price != "$199":
+    if price != "$219":
         print("Price has changed!")
         return "Price has changed! Firecuda 4TB is now " + \
             price + \
