@@ -21,8 +21,10 @@ def price_check():
     price = soup.find(
         "div", {"class": "prod_price_current product-price"}).find("span").text
 
+    print("Firecuda 4TB at Centre Com is now " + price)
+
     if price != "$219":
         print("Price has changed!")
-        return "Price has changed! Firecuda 4TB is now " + \
+        return "Price has changed! Firecuda 4TB at Centre Com is now " + \
             price + \
             " https://www.centrecom.com.au/seagate-firecuda-hdd-4tb-7200rpm-35-internal-hard-drive"

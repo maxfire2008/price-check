@@ -2,11 +2,17 @@ import smtplib
 import email.message
 import os
 
-import seagate_firecuda_hdd_4tb
+import centre_com_seagate_firecuda_hdd_4tb
+import centre_com_seagate_firecuda_hdd_8tb
+import scorptec_seagate_firecuda_hdd_4tb
+import scorptec_seagate_firecuda_hdd_8tb
 import price_check_check
 
 checks = [
-    seagate_firecuda_hdd_4tb.price_check,
+    centre_com_seagate_firecuda_hdd_4tb.price_check,
+    centre_com_seagate_firecuda_hdd_8tb.price_check,
+    scorptec_seagate_firecuda_hdd_4tb.price_check,
+    scorptec_seagate_firecuda_hdd_8tb.price_check,
     price_check_check.price_check_check,
 ]
 
