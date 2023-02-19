@@ -23,13 +23,13 @@ def main():
         result = check()
         if result:
             print(
-                "\n\n=================CHECK=================\n" +
+                "\n\n==========CHECK INFORMATION==========\n" +
                 check.__module__ +
                 "." +
                 check.__name__ +
                 ": " +
                 result +
-                "\n=======================================\n\n"
+                "\n=====================================\n\n"
             )
             exit_code = 1
         else:
