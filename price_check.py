@@ -20,21 +20,22 @@ checks = [
 def main():
     exit_code = 0
     for check in checks:
+        print("Running check:", check.__module__ + "." + check.__name__)
         result = check()
         if result:
             print(
-                "\n\n==========CHECK INFORMATION==========\n" +
+                "==========CHECK INFORMATION==========\n" +
                 check.__module__ +
                 "." +
                 check.__name__ +
                 ": " +
                 result +
-                "\n=====================================\n\n"
+                "\n====================================="
             )
             exit_code = 1
         else:
             print("Check:", check.__module__ + "." +
-                  check.__name__, "didn't return anything")
+                  check.__name__, "didn't return anything\n")
     return exit_code
 
 
