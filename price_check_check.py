@@ -10,5 +10,5 @@ def price_check_check():
     ):
         return "Price check check passed"
 
-    if datetime.datetime.utcnow() < datetime.datetime(2022, 1, 27):
+    if datetime.datetime.utcnow() < datetime.datetime(2023, 2, 21):
         return "Price check check has run the every time response"
