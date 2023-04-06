@@ -23,7 +23,7 @@ def price_check():
 
     print("Firecuda 4TB at Centre Com is now " + price)
 
-    if price != "$219":
+    if price != "$198":
         print("Price has changed!")
         return "Price has changed! Firecuda 4TB at Centre Com is now " + \
             price + \
