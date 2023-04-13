@@ -17,6 +17,8 @@ def price_check():
     )
     soup = bs4.BeautifulSoup(page.text, "html.parser")
 
+    print(soup.prettify())
+
     # get price as an integer
     price = soup.find(
         "div", {"class": "prod_price_current product-price"}).find("span").text
