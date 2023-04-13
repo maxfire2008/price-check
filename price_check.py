@@ -1,7 +1,3 @@
-import smtplib
-import email.message
-import os
-
 import centre_com_seagate_firecuda_hdd_4tb
 import centre_com_seagate_firecuda_hdd_8tb
 import scorptec_seagate_firecuda_hdd_4tb
