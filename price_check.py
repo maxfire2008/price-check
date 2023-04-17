@@ -5,7 +5,7 @@ import scorptec_seagate_firecuda_hdd_8tb
 import price_check_check
 
 checks = [
-    centre_com_seagate_firecuda_hdd_4tb.price_check,
+    # centre_com_seagate_firecuda_hdd_4tb.price_check, NO LONGER AVAILABLE
     centre_com_seagate_firecuda_hdd_8tb.price_check,
     scorptec_seagate_firecuda_hdd_4tb.price_check,
     scorptec_seagate_firecuda_hdd_8tb.price_check,
